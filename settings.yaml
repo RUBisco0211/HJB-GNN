@@ -1,0 +1,6 @@
+CrazyFlie:
+  --env: CrazyFlie
+  --n-env-train: 16
+  --area-size: 2
+  --loss-action-coef: 1e-4
+  --loss-value-coef: 1e-4
