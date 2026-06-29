@@ -116,15 +116,16 @@ def np2jax(x):
 
 
 def is_connected():
-    try:
-        sock = socket.create_connection(("www.google.com", 80))
-        if sock is not None:
-            sock.close()
-        return True
-    except OSError:
-        pass
-    print('No internet connection')
-    return False
+    # try:
+    #     sock = socket.create_connection(("www.google.com", 80))
+    #     if sock is not None:
+    #         sock.close()
+    #     return True
+    # except OSError:
+    #     pass
+    # print('No internet connection')
+    # return False
+    return True
 
 
 def plot_cbf(

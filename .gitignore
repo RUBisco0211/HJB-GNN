@@ -1,0 +1,7 @@
+.vscode
+.agents
+__pycache__
+*.pyc
+*.pyi
+*.egg-info
+logs/*
